@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8"> 
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<script type="text/javascript" src="js/jquery-2.0.3.js"> </script>
+
+
+<!--
+<script>
+    document.write('<script type="text/javascript"  src="js/pagelle.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');
+    document.write('<link rel="stylesheet" href="css/TID.css?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');
+</script>
+-->
+<script>
+    document.write('<script type="text/javascript"  src="js/pagelle.js"\><\/script>');
+    document.write('<link rel="stylesheet" href="css/TID.css"\><\/script>');
+</script>
+
+    
+</head>
+
+<!-- rilancio la pagina con un parametro per farla caricare se cambiata -->
+<script>
+    var query = window.location.search.substring(1);
+    if (!query)
+      window.location = 'index.html?dev=' + Math.floor(Math.random() * 100);
+    if (query == 'admin')
+    {
+        CAMPIONATO.isAdmin = true;
+    }   
+</script>
+    
+<body style="font-family: Arial">
+    
+<!--                            INTESTAZIONE                                        -->   
+<main align=”center” class="frame-principale"> 
+<div class="intestazione-img">
+    <a href="https://www.chess.com/club/team-italia-doc"  target=”_blank”> <img height="125" width="125" src="img\TID.png"></a>
+</div>
+<div>
+    <h1 class="intestazione-titolo">Team Italia DOC</h1>
+    <br>
+    <h1 class="intestazione-piede">Le pagelle di Sigmund</h1>
+    <HR>
+</div>
+
+<!--                            Menu                                        -->   
+<spam class="menu" >
+    <select  onchange="window.location=this.options[this.selectedIndex].value">
+        <option value="">Campionato Sociale...</option>
+        <option value="https://teamitaliadoc.github.io/campionatoSociale2019I/index.html">Campionato sociale 2019</option>    
+        <option value="https://teamitaliadoc.github.io/campionatoSociale2018/index.html">Campionato sociale 2018</option>    
+      </select>
+    </spam>
+    <spam class="menu" >
+    </spam>
+    <spam class="menu" >
+        <select  onchange="window.location=this.options[this.selectedIndex].value">
+            <option value="">In corso...</option>
+            <option value="https://teamitaliadoc.github.io/campionatoSquadre2019/index.html">Campionato a squadre 2019</option>    
+            <option value="https://teamitaliadoc.github.io/Carosello2019/index.html">Carosello 2019</option>    
+            <option value="https://teamitaliadoc.github.io/Calvario2019/index.html">Calvario 2019</option>    
+        </select>
+    </spam>
+    <spam class="menu" >
+        <a  class="menu" href="https://teamitaliadoc.github.io/hallOfFame">Hall of fame </a>
+     </spam>
+     <spam class="menuOk" >
+        <a  class="menu" href="https://teamitaliadoc.github.io/pagelle">Pagelle</a>
+     </spam>
+     <spam class="menu" >
+        <select  onchange="window.location=this.options[this.selectedIndex].value">
+            <option value="">Video...</option>
+            <option value="https://youtu.be/xCvnI2K0VN8">Inno</option>    
+            <option value="https://www.youtube.com/watch?v=9rjMwIiODsw">Compleanno 2019</option>    
+          </select>
+        </spam>
+        <HR>
+    
+
+<!--                            SEPARATORE                                      -->   
+<table align="left" width="950px" height="100px">
+    <tr> </tr>
+    <tr> </tr>
+    <tr><td class="materia">ITALIANO: <span class="materia-desc">il voto è legato al numero di mosse eseguite coincidenti con la migliore dell'engine; per migliorare in questa materia bisogna sforzarsi di eseguire sempre la mossa migliore.</span></td> </tr>
+        <tr><td class="materia">STORIA: <span class="materia-desc">il voto è legato al numero di mosse eseguite coincidenti con una delle prime 3 scelte dell'engine; per migliorare in questa materia bisogna sforzarsi di eseguire sempre la mossa migliore oppure una delle due migliori alternative a questa.</span></td> </tr>
+        <tr><td class="materia">GEOGRAFIA: <span class="materia-desc">il voto è legato al numero di mosse eseguite non comprese tra le prime 5 scelte dell'engine; per migliorare in questa materia bisogna evitare di fare mosse che non sono comprese tra le prime 5 opzioni possibili (che possono essere anche errori).</span></td> </tr>
+        <tr><td class="materia">SCIENZE: <span class="materia-desc">il voto è legato al numero di mosse eseguite che si trovano a distanza &#60;0.1 dalla migliore; per migliorare in questa materia bisogna sforzarsi di eseguire sempre la mossa migliore o una mossa molto vicina alla migliore.</span></td> </tr>
+        <tr><td class="materia">FILOSOFIA: <BR><span class="materia-desc">il voto è legato al numero di mosse eseguite che si trovano a distanza &#60;0.5 dalla migliore; per migliorare in questa materia bisogna sforzarsi di eseguire sempre mosse ottime o buone, non distanti più di mezzo pedone dalla migliore.</span></td> </tr>
+        <tr><td class="materia">MATEMATICA: <BR><span class="materia-desc">il voto è legato al numero di mosse eseguite che si trovano a distanza >1.0 dalla migliore; per migliorare in questa materia bisogna sforzarsi di non fare errori.</span></td> </tr>
+        <tr><td class="materia">FISICA: <BR><span class="materia-desc">il voto è legato al numero di mosse eseguite che si trovano a distanza >2.0 dalla migliore; per migliorare in questa materia bisogna sforzarsi di non fare almeno errori gravi.</span></td> </tr>
+        <tr><td class="materia">LATINO: <BR><span class="materia-desc">il voto è legato alla distanza media delle mosse eseguite dalla migliore; per migliorare in questa materia bisogna sforzarsi di fare mosse ottime o buone con costanza.</span></td> </tr>
+        <tr><td class="materia">RELIGIONE: <BR><span class="materia-desc">il voto è legato alla distanza media delle mosse eseguite dalla migliore, esclusi gli errori gravi; questo è il voto che si può aspirare di avere in Latino applicandosi di più.</span></td> </tr>
+</h1></td></tr>
+</table>
+
+<!--                            CLASSIFICA                                      -->   
+<div>
+<table  id="classifica" class="classifica-tabella">
+
+    <tr class="classifica-intestazione">
+    </tr>
+        </table>
+
+</div>
+
+    
+<!--                            SEPARATORE                                      -->   
+<table align="left" width="960px" height="100px">
+    <tr> </tr>
+    <tr> </tr>
+<tr> <td><h1 class="intestazione-gironi">Pagelle</h1></td> </tr>
+</table>
+
+<!--                            TABELLA PAGELLA                                      -->   
+<div>
+    <table  id="pagelle" class="tabella">
+        <tr class="intestazione">
+            <td class="col-giocatore"></td> <!-- posizione -->
+            <td class="int-voto">Data</td> 
+            <td class="int-voto">Voto finale</td> 
+            <td class="int-voto">Italiano</td> 
+            <td class="int-voto">Storia</td> 
+            <td class="int-voto">Geografia</td> 
+            <td class="int-voto">Scienze</td> 
+            <td class="int-voto">Filosofia</td> 
+            <td class="int-voto">Matematica</td> 
+            <td class="int-voto">Fisica</td> 
+            <td class="int-voto">Latino</td> 
+            <td class="int-voto">Religione</td> 
+      </tr>
+    </table>
+</div>
+
+
+
+<!--                            IMMAGINE  -  LOGO   -->
+    <table  width="950px" height="50px" class="Powered">
+    <tr>
+        <td></td> 
+    </tr>
+</table>
+
+<table  width="950px"   class="Powered">
+
+    <tr>
+        <td align="left" width="950px">Realizzato da Sandro2116 & TheMoonlightKnight</td> 
+    </tr>
+    </table> 
+
+
+
+    <script type="text/javascript"> 
+      elabora(); 
+    </script>
+</main>
+
+</html>
+
