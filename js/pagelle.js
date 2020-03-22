@@ -127,9 +127,9 @@ function stampaPagella(tipo) {
         '    </tr></table>' +
         '</td>';
         if (giocatori[username].votoFinale < 6)
-            riga += '<td class="col-voto" style="color: red;">' + giocatori[username].votoFinale +'</td>';
+            riga += '<td class="col-voto-bold" style="color: red;">' + giocatori[username].votoFinale +'</td>';
         else
-            riga += '<td class="col-voto">' + giocatori[username].votoFinale +'</td>';
+            riga += '<td class="col-voto-bold">' + giocatori[username].votoFinale +'</td>';
         if (giocatori[username].italiano < 6)
             riga += '<td class="col-voto" style="color: red;">' + giocatori[username].italiano +'</td>';
         else
