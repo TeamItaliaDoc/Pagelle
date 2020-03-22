@@ -108,10 +108,22 @@
     font-size: 14px;    
     text-align:center;
 }   
+.int-voto-bold {
+    width:50px;
+    font-size: 14px;    
+    text-align:center;
+    font-weight: bold;
+}   
 .col-voto {
     width:50px;
     font-size: 16px;    
     text-align:center;
+}   
+.col-voto-bold {
+    width:50px;
+    font-size: 16px;    
+    text-align:center;
+    font-weight: bold;
 }   
 .avatar {
     width:35px;
