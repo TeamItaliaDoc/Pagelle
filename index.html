@@ -8,16 +8,16 @@
 <script type="text/javascript" src="js/jquery-2.0.3.js"> </script>
 
 
-<!--
 <script>
     document.write('<script type="text/javascript"  src="js/pagelle.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');
     document.write('<link rel="stylesheet" href="css/TID.css?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');
 </script>
--->
+<!--
 <script>
     document.write('<script type="text/javascript"  src="js/pagelle.js"\><\/script>');
     document.write('<link rel="stylesheet" href="css/TID.css"\><\/script>');
 </script>
+-->
 
     
 </head>
@@ -81,7 +81,41 @@
         <HR>
     
 
-<!--                            SEPARATORE                                      -->   
+    
+<!--                            SEPARATORE                                      
+<table align="left" width="960px" height="100px">
+    <tr> </tr>
+    <tr> </tr>
+<tr> <td><h1 class="intestazione-gironi">Pagelle</h1></td> </tr>
+</table>
+ -->  
+<!--                            TABELLA PAGELLA                                      -->   
+<div>
+    <table  id="pagelle" class="tabella">
+        <tr class="intestazione">
+            <td class="col-giocatore"></td> <!-- posizione -->
+            <td class="int-voto">Voto finale</td> 
+            <td class="int-voto">Italiano</td> 
+            <td class="int-voto">Storia</td> 
+            <td class="int-voto">Geografia</td> 
+            <td class="int-voto">Scienze</td> 
+            <td class="int-voto">Filosofia</td> 
+            <td class="int-voto">Matematica</td> 
+            <td class="int-voto">Fisica</td> 
+            <td class="int-voto">Latino</td> 
+            <td class="int-voto">Religione</td> 
+            <td class="int-voto">Data</td> 
+      </tr>
+    </table>
+</div>
+
+
+<!--                            DESCRIZIONE                                      -->   
+<table align="left" width="960px" height="50px">
+    <tr> </tr>
+    <tr> </tr>
+<tr> <td><h1 class="intestazione-gironi"></h1></td> </tr>
+</table>
 <table align="left" width="950px" height="100px">
     <tr> </tr>
     <tr> </tr>
@@ -97,46 +131,145 @@
 </h1></td></tr>
 </table>
 
-<!--                            CLASSIFICA                                      -->   
-<div>
-<table  id="classifica" class="classifica-tabella">
-
-    <tr class="classifica-intestazione">
-    </tr>
-        </table>
-
-</div>
-
-    
-<!--                            SEPARATORE                                      -->   
-<table align="left" width="960px" height="100px">
-    <tr> </tr>
-    <tr> </tr>
-<tr> <td><h1 class="intestazione-gironi">Pagelle</h1></td> </tr>
+<table align="left" width="960px" height="25px">
+<tr> <td><h1 class="intestazione-gironi"></h1></td> </tr>
 </table>
-
-<!--                            TABELLA PAGELLA                                      -->   
-<div>
-    <table  id="pagelle" class="tabella">
-        <tr class="intestazione">
-            <td class="col-giocatore"></td> <!-- posizione -->
-            <td class="int-voto">Data</td> 
-            <td class="int-voto">Voto finale</td> 
-            <td class="int-voto">Italiano</td> 
-            <td class="int-voto">Storia</td> 
-            <td class="int-voto">Geografia</td> 
-            <td class="int-voto">Scienze</td> 
-            <td class="int-voto">Filosofia</td> 
-            <td class="int-voto">Matematica</td> 
-            <td class="int-voto">Fisica</td> 
-            <td class="int-voto">Latino</td> 
-            <td class="int-voto">Religione</td> 
-      </tr>
+<table width="483" style="height:204px;">
+    <tbody>
+    <tr style="height:17px;">
+    <td style="width:31.2px;height:17px;"></td>
+    <td style="width:45.6px;height:17px;"><strong>ITA</strong></td>
+    <td style="width:38.4px;height:17px;"><strong>STO</strong></td>
+    <td style="width:43.2px;height:17px;"><strong>GEO</strong></td>
+    <td style="width:44px;height:17px;"><strong>SCI</strong></td>
+    <td style="width:44px;height:17px;"><strong>FIL</strong></td>
+    <td style="width:44px;height:17px;"><strong>MAT</strong></td>
+    <td style="width:44px;height:17px;"><strong>FIS</strong></td>
+    <td style="width:40.8px;height:17px;"><strong>LAT</strong></td>
+    <td style="width:48px;height:17px;"><strong>REL</strong></td>
+    </tr>
+    <tr style="height:34px;">
+    <td style="width:31.2px;height:34px;">voto</td>
+    <td style="width:45.6px;height:34px;">%best</td>
+    <td style="width:38.4px;height:34px;">%1-3°</td>
+    <td style="width:43.2px;height:34px;">%&gt;5°</td>
+    <td style="width:44px;height:34px;">d&lt;0.1</td>
+    <td style="width:44px;height:34px;">d&lt;0.5</td>
+    <td style="width:44px;height:34px;">d&gt;1.0</td>
+    <td style="width:44px;height:34px;">d&gt;2.0</td>
+    <td style="width:40.8px;height:34px;">dmed</td>
+    <td style="width:48px;height:34px;">dmed-</td>
+    </tr>
+    <tr style="height:17px;">
+    <td style="width:31.2px;height:17px;"><strong>10</strong></td>
+    <td style="width:45.6px;height:17px;">60</td>
+    <td style="width:38.4px;height:17px;">90</td>
+    <td style="width:43.2px;height:17px;">0</td>
+    <td style="width:44px;height:17px;">70</td>
+    <td style="width:44px;height:17px;">90</td>
+    <td style="width:44px;height:17px;">0</td>
+    <td style="width:44px;height:17px;">0</td>
+    <td style="width:40.8px;height:17px;">0</td>
+    <td style="width:48px;height:17px;">0</td>
+    </tr>
+    <tr style="height:17px;">
+    <td style="width:31.2px;height:17px;"><strong>9</strong></td>
+    <td style="width:45.6px;height:17px;">55</td>
+    <td style="width:38.4px;height:17px;">80</td>
+    <td style="width:43.2px;height:17px;">5</td>
+    <td style="width:44px;height:17px;">65</td>
+    <td style="width:44px;height:17px;">85</td>
+    <td style="width:44px;height:17px;">3</td>
+    <td style="width:44px;height:17px;">2</td>
+    <td style="width:40.8px;height:17px;">0.2</td>
+    <td style="width:48px;height:17px;">0.2</td>
+    </tr>
+    <tr style="height:17px;">
+    <td style="width:31.2px;height:17px;"><strong>8</strong></td>
+    <td style="width:45.6px;height:17px;">50</td>
+    <td style="width:38.4px;height:17px;">70</td>
+    <td style="width:43.2px;height:17px;">10</td>
+    <td style="width:44px;height:17px;">60</td>
+    <td style="width:44px;height:17px;">80</td>
+    <td style="width:44px;height:17px;">6</td>
+    <td style="width:44px;height:17px;">4</td>
+    <td style="width:40.8px;height:17px;">0.4</td>
+    <td style="width:48px;height:17px;">0.4</td>
+    </tr>
+    <tr style="height:17px;">
+    <td style="width:31.2px;height:17px;"><strong>7</strong></td>
+    <td style="width:45.6px;height:17px;">45</td>
+    <td style="width:38.4px;height:17px;">60</td>
+    <td style="width:43.2px;height:17px;">15</td>
+    <td style="width:44px;height:17px;">55</td>
+    <td style="width:44px;height:17px;">75</td>
+    <td style="width:44px;height:17px;">9</td>
+    <td style="width:44px;height:17px;">6</td>
+    <td style="width:40.8px;height:17px;">0.6</td>
+    <td style="width:48px;height:17px;">0.6</td>
+    </tr>
+    <tr style="height:17px;">
+    <td style="width:31.2px;height:17px;"><strong>6</strong></td>
+    <td style="width:45.6px;height:17px;">40</td>
+    <td style="width:38.4px;height:17px;">50</td>
+    <td style="width:43.2px;height:17px;">20</td>
+    <td style="width:44px;height:17px;">50</td>
+    <td style="width:44px;height:17px;">70</td>
+    <td style="width:44px;height:17px;">12</td>
+    <td style="width:44px;height:17px;">8</td>
+    <td style="width:40.8px;height:17px;">0.8</td>
+    <td style="width:48px;height:17px;">0.8</td>
+    </tr>
+    <tr style="height:17px;">
+    <td style="width:31.2px;height:17px;"><strong>5</strong></td>
+    <td style="width:45.6px;height:17px;">35</td>
+    <td style="width:38.4px;height:17px;">40</td>
+    <td style="width:43.2px;height:17px;">25</td>
+    <td style="width:44px;height:17px;">45</td>
+    <td style="width:44px;height:17px;">65</td>
+    <td style="width:44px;height:17px;">15</td>
+    <td style="width:44px;height:17px;">10</td>
+    <td style="width:40.8px;height:17px;">1.0</td>
+    <td style="width:48px;height:17px;">1.0</td>
+    </tr>
+    <tr style="height:17px;">
+    <td style="width:31.2px;height:17px;"><strong>4</strong></td>
+    <td style="width:45.6px;height:17px;">30</td>
+    <td style="width:38.4px;height:17px;">30</td>
+    <td style="width:43.2px;height:17px;">30</td>
+    <td style="width:44px;height:17px;">40</td>
+    <td style="width:44px;height:17px;">60</td>
+    <td style="width:44px;height:17px;">18</td>
+    <td style="width:44px;height:17px;">12</td>
+    <td style="width:40.8px;height:17px;">1.2</td>
+    <td style="width:48px;height:17px;">1.2</td>
+    </tr>
+    <tr style="height:17px;">
+    <td style="width:31.2px;height:17px;"><strong>3</strong></td>
+    <td style="width:45.6px;height:17px;">25</td>
+    <td style="width:38.4px;height:17px;">20</td>
+    <td style="width:43.2px;height:17px;">35</td>
+    <td style="width:44px;height:17px;">35</td>
+    <td style="width:44px;height:17px;">55</td>
+    <td style="width:44px;height:17px;">21</td>
+    <td style="width:44px;height:17px;">14</td>
+    <td style="width:40.8px;height:17px;">1.4</td>
+    <td style="width:48px;height:17px;">1.4</td>
+    </tr>
+    <tr style="height:17px;">
+    <td style="width:31.2px;height:17px;"><strong>2</strong></td>
+    <td style="width:45.6px;height:17px;">20</td>
+    <td style="width:38.4px;height:17px;">10</td>
+    <td style="width:43.2px;height:17px;">40</td>
+    <td style="width:44px;height:17px;">30</td>
+    <td style="width:44px;height:17px;">50</td>
+    <td style="width:44px;height:17px;">24</td>
+    <td style="width:44px;height:17px;">16</td>
+    <td style="width:40.8px;height:17px;">1.6</td>
+    <td style="width:48px;height:17px;">1.6</td>
+    </tr>
+    </tbody>
     </table>
-</div>
-
-
-
 <!--                            IMMAGINE  -  LOGO   -->
     <table  width="950px" height="50px" class="Powered">
     <tr>

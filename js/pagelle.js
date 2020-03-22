@@ -108,7 +108,7 @@ function stampaPagella(tipo) {
 
     //valcolo voto finale
     for (var username in giocatori) {
-        giocatori[username].votoFinale = (giocatori[username].italiano + giocatori[username].storia + giocatori[username].geografica + giocatori[username].scienze + giocatori[username].filosofia + giocatori[username].matematica + giocatori[username].fisica + giocatori[username].latino + giocatori[username].religione) / 9;
+        giocatori[username].votoFinale = Math.round((giocatori[username].italiano + giocatori[username].storia + giocatori[username].geografica + giocatori[username].scienze + giocatori[username].filosofia + giocatori[username].matematica + giocatori[username].fisica + giocatori[username].latino ) / 8);
     }
 
     //stampo riga    
@@ -125,12 +125,11 @@ function stampaPagella(tipo) {
         '        </div> <div>  (' + giocatori[username].elo + ') </div>' +
         '        </td>' +    
         '    </tr></table>' +
-        '</td>' +
-        '<td class="col-voto">' + giocatori[username].data +'</td>';
-        if (giocatori[username].italiano < 6)
-            riga += '<td class="col-voto" style="color: red;">' + giocatori[username].votoFinale.toFixed(2) +'</td>';
+        '</td>';
+        if (giocatori[username].votoFinale < 6)
+            riga += '<td class="col-voto" style="color: red;">' + giocatori[username].votoFinale +'</td>';
         else
-            riga += '<td class="col-voto">' + giocatori[username].votoFinale.toFixed(2) +'</td>';
+            riga += '<td class="col-voto">' + giocatori[username].votoFinale +'</td>';
         if (giocatori[username].italiano < 6)
             riga += '<td class="col-voto" style="color: red;">' + giocatori[username].italiano +'</td>';
         else
@@ -167,6 +166,7 @@ function stampaPagella(tipo) {
             riga += '<td class="col-voto" style="color: red;">' + giocatori[username].religione +'</td>';
         else
             riga += '<td class="col-voto">' + giocatori[username].religione +'</td>';
+        riga += '<td class="col-voto">' + giocatori[username].data +'</td>';
         riga += '</tr>';
 
         //aggiungo
