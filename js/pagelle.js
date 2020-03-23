@@ -2,6 +2,14 @@
 var stampaRun = false;
 
 var giocatori = [];
+//giocatori['']={"data":"22/03/2020", "votoFinale":0, "italiano":, "storia":, "geografica":, "scienze":, "filosofia":, "matematica":, "fisica": , "latino": , "religione":, "avatar":"", "displayname":"", "url":"", "elo":""  };
+//giocatori['']={"data":"22/03/2020", "votoFinale":0, "italiano":, "storia":, "geografica":, "scienze":, "filosofia":, "matematica":, "fisica": , "latino": , "religione":, "avatar":"", "displayname":"", "url":"", "elo":""  };
+//giocatori['']={"data":"22/03/2020", "votoFinale":0, "italiano":, "storia":, "geografica":, "scienze":, "filosofia":, "matematica":, "fisica": , "latino": , "religione":, "avatar":"", "displayname":"", "url":"", "elo":""  };
+//giocatori['']={"data":"22/03/2020", "votoFinale":0, "italiano":, "storia":, "geografica":, "scienze":, "filosofia":, "matematica":, "fisica": , "latino": , "religione":, "avatar":"", "displayname":"", "url":"", "elo":""  };
+//giocatori['']={"data":"22/03/2020", "votoFinale":0, "italiano":, "storia":, "geografica":, "scienze":, "filosofia":, "matematica":, "fisica": , "latino": , "religione":, "avatar":"", "displayname":"", "url":"", "elo":""  };
+//giocatori['']={"data":"22/03/2020", "votoFinale":0, "italiano":, "storia":, "geografica":, "scienze":, "filosofia":, "matematica":, "fisica": , "latino": , "religione":, "avatar":"", "displayname":"", "url":"", "elo":""  };
+//giocatori['']={"data":"22/03/2020", "votoFinale":0, "italiano":, "storia":, "geografica":, "scienze":, "filosofia":, "matematica":, "fisica": , "latino": , "religione":, "avatar":"", "displayname":"", "url":"", "elo":""  };
+giocatori['bravale']={"data":"22/03/2020", "votoFinale":0, "italiano":,3.5 "storia":6, "geografica":2.5, "scienze":4, "filosofia":3.5, "matematica":1, "fisica":2, "latino":2 , "religione":7.5, "avatar":"", "displayname":"", "url":"", "elo":""  };
 giocatori['fessura92']={"data":"22/03/2020", "votoFinale":0, "italiano":7, "storia":8, "geografica":6, "scienze":7, "filosofia":7, "matematica":5, "fisica":6.5 , "latino":6.5 , "religione":8, "avatar":"", "displayname":"", "url":"", "elo":""  };
 giocatori['sandro2116']={"data":"22/03/2020", "votoFinale":0, "italiano":7, "storia":8.5, "geografica":6.5, "scienze":7.5, "filosofia":8, "matematica":6.5, "fisica":8 , "latino":6 , "religione":8.5, "avatar":"", "displayname":"", "url":"", "elo":""  };
 giocatori['88arf']={"data":"22/03/2020", "votoFinale":0, "italiano":6.5, "storia":8, "geografica":6.5, "scienze":6.5, "filosofia":7.5, "matematica":6.5, "fisica":7 , "latino":8 , "religione":8.5, "avatar":"", "displayname":"", "url":"", "elo":""  };
@@ -14,7 +22,6 @@ giocatori['saurosol']={"data":"22/03/2020", "votoFinale":0, "italiano":7, "stori
 
 
 
-//giocatori['']={"data":"22/03/2020", "votoFinale":0, "italiano":, "storia":, "geografica":, "scienze":, "filosofia":, "matematica":, "fisica": , "latino": , "religione":, "avatar":"", "displayname":"", "url":"", "elo":""  };
 
 function elabora() {
     //Cerco avatar
