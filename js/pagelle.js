@@ -16,7 +16,7 @@ giocatori['88arf']={"data":"22/03/2020", "votoFinale":0, "italiano":6.5, "storia
 giocatori['lixiansky']={"data":"22/03/2020", "votoFinale":0, "italiano":6.5, "storia":8, "geografica":6.5, "scienze":6.5, "filosofia":7, "matematica":6, "fisica":7 , "latino":6.5 , "religione":8.5, "avatar":"", "displayname":"", "url":"", "elo":""  };
 giocatori['ytoong']={"data":"22/03/2020", "votoFinale":0, "italiano":7, "storia":7.5, "geografica":5.5, "scienze":7.5, "filosofia":7, "matematica":6.5, "fisica":6.5 , "latino":6.5 , "religione":8.5, "avatar":"", "displayname":"", "url":"", "elo":""  };
 //giocatori['cavaliereyedi']={"data":"22/03/2020", "votoFinale":0, "italiano":6, "storia":7.5, "geografica":5.5, "scienze":6.5, "filosofia":6, "matematica":4.5, "fisica":5.5 , "latino":4 , "religione":8, "avatar":"", "displayname":"", "url":"", "elo":""  };
-giocatori['yoggsaron']={"data":"22/03/2020", "votoFinale":0, "italiano":8.5, "storia":9, "geografica":8, "scienze":9, "filosofia":9, "matematica":8, "fisica":9 , "latino":8 , "religione":9, "avatar":"", "displayname":"", "url":"", "elo":""  };
+giocatori['yoggsaron99']={"data":"22/03/2020", "votoFinale":0, "italiano":8.5, "storia":9, "geografica":8, "scienze":9, "filosofia":9, "matematica":8, "fisica":9 , "latino":8 , "religione":9, "avatar":"", "displayname":"", "url":"", "elo":""  };
 giocatori['giampiero111']={"data":"22/03/2020", "votoFinale":0, "italiano":5, "storia":7.5, "geografica":5, "scienze":5, "filosofia":6.5, "matematica":5.5, "fisica": 7.5, "latino":7 , "religione": 8};
 giocatori['saurosol']={"data":"22/03/2020", "votoFinale":0, "italiano":7, "storia":8.5, "geografica":7, "scienze":7.5, "filosofia":8, "matematica":6.5, "fisica":8 , "latino":8 , "religione":8.5};
 
