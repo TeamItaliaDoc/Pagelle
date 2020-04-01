@@ -108,6 +108,12 @@
     font-size: 14px;    
     text-align:center;
 }   
+.int-voto-g {
+    width:50px;
+    font-size: 14px;    
+    text-align:center;
+    font-weight: bold;
+}   
 .int-voto-bold {
     width:50px;
     font-size: 14px;    
