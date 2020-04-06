@@ -4,6 +4,9 @@ var stampaRun = false;
 var giocatori = [];
 
 //giocatori['']={"pagella":[{"data":"/04/2020", "italiano":, "storia":, "geografica":, "scienze":, "filosofia":, "matematica":, "fisica": , "latino":, "religione":, "votoFinale":0}]};
+//giocatori['']={"pagella":[{"data":"06/04/2020", "italiano":, "storia":, "geografica":, "scienze":, "filosofia":, "matematica":, "fisica": , "latino":, "religione":, "votoFinale":0}]};
+//giocatori['']={"pagella":[{"data":"06/04/2020", "italiano":, "storia":, "geografica":, "scienze":, "filosofia":, "matematica":, "fisica": , "latino":, "religione":, "votoFinale":0}]};
+//giocatori['']={"pagella":[{"data":"06/04/2020", "italiano":, "storia":, "geografica":, "scienze":, "filosofia":, "matematica":, "fisica": , "latino":, "religione":, "votoFinale":0}]};
 
 
 giocatori['88arf']={"pagella":[{"data":"22/03/2020", "votoFinale":0, "italiano":6.5, "storia":8, "geografica":6.5, "scienze":6.5, "filosofia":7.5, "matematica":6.5, "fisica":7 , "latino":8 , "religione":8.5}]};
@@ -35,13 +38,16 @@ giocatori['fulljoker']={"pagella":[{"data":"28/03/2020", "italiano":6, "storia":
 giocatori['gd1966']={"pagella":[{"data":"03/04/2020", "italiano":7, "storia":8, "geografica":6, "scienze":7.5, "filosofia":7.5, "matematica":6, "fisica":8.5 , "latino":6.5, "religione":8.5, "votoFinale":0}]};
 giocatori['giammi99']={"pagella":[{"data":"24/03/2020", "italiano":5, "storia":7.5, "geografica":5.5, "scienze":5, "filosofia":7, "matematica":6, "fisica":8 , "latino":7.5 , "religione":8, "votoFinale":0}]};
 giocatori['giampiero111']={"pagella":[{"data":"22/03/2020", "votoFinale":0, "italiano":5, "storia":7.5, "geografica":5, "scienze":5, "filosofia":6.5, "matematica":5.5, "fisica": 7.5, "latino":7 , "religione": 8}]};
+giocatori['giardiniere']={"pagella":[{"data":"06/04/2020", "italiano":8.5, "storia":9, "geografica":7.5, "scienze":9, "filosofia":9, "matematica":7.5, "fisica":8 , "latino":7.5, "religione":9, "votoFinale":0}]};
 giocatori['giosibo']={"pagella":[{"data":"01/04/2020", "italiano":6.5, "storia":7.5, "geografica":5.5, "scienze":7, "filosofia":8, "matematica":7, "fisica":8 , "latino":6.5, "religione":8.5, "votoFinale":0}]};
 giocatori['golia_il_filisteo']={"pagella":[{"data":"03/04/2020", "italiano":6.5, "storia":7.5, "geografica":5.5, "scienze":6.5, "filosofia":8, "matematica":6, "fisica":8 , "latino":8, "religione":8.6, "votoFinale":0}]};
+giocatori['homunculus1']={"pagella":[{"data":"05/04/2020", "italiano":7, "storia":8, "geografica":7, "scienze":7.5, "filosofia":8, "matematica":7.5, "fisica":8.5 , "latino":8, "religione":9, "votoFinale":0}]};
 giocatori['kmoreteam']={"pagella":[{"data":"25/03/2020", "italiano":5, "storia":7.5, "geografica":5, "scienze":4.5, "filosofia":6, "matematica":5, "fisica":6 , "latino":3 , "religione":8, "votoFinale":0}]};
 giocatori['iaiobros']={"pagella":[{"data":"01/04/2020", "italiano":7.5, "storia":8.5, "geografica":7, "scienze":7, "filosofia":7.5, "matematica":6.5, "fisica":8 , "latino":7, "religione":8.5, "votoFinale":0}]};
 giocatori['il_king']={"pagella":[{"data":"03/04/2020", "italiano":6.5, "storia":8.5, "geografica":6.5, "scienze":6.5, "filosofia":7, "matematica":6, "fisica":7 , "latino":7, "religione":8.5, "votoFinale":0}]};
 giocatori['leffelover']={"pagella":[{"data":"24/03/2020", "votoFinale":0, "italiano":5, "storia":7.5, "geografica":5.5, "scienze":4.5, "filosofia":5.5, "matematica":4, "fisica":5.5 , "latino":5.5 , "religione":8}]};
 giocatori['linchetto']={"pagella":[{"data":"02/04/2020", "italiano":6, "storia":7.5, "geografica":5, "scienze":5.5, "filosofia":6.5, "matematica":5.5, "fisica":8 , "latino":7, "religione":8, "votoFinale":0}]};
+giocatori['litantrace']={"pagella":[{"data":"06/04/2020", "italiano":7.5, "storia":6.5, "geografica":5.5, "scienze":6.5, "filosofia":8, "matematica":6.5, "fisica":7.5 , "latino":6, "religione":8.5, "votoFinale":0}]};
 giocatori['lixiansky']={"pagella":[{"data":"22/03/2020", "votoFinale":0, "italiano":6.5, "storia":8, "geografica":6.5, "scienze":6.5, "filosofia":7, "matematica":6, "fisica":7 , "latino":6.5 , "religione":8.5}]};
 giocatori['lupodellasila']={"pagella":[{"data":"27/03/2020", "italiano":6.5, "storia":8, "geografica":7, "scienze":7.5, "filosofia":10, "matematica":9, "fisica":9 , "latino":9 , "religione":9, "votoFinale":0}]};
 giocatori['marcus64']={"pagella":[{"data":"01/04/2020", "italiano":10, "storia":9.5, "geografica":8.5, "scienze":10, "filosofia":10, "matematica":9, "fisica":9.5 , "latino":9, "religione":9, "votoFinale":0}]};
