@@ -6,7 +6,6 @@ var giocatori = [];
 //giocatori['']={"pagella":[{"data":"/04/2020", "italiano":, "storia":, "geografica":, "scienze":, "filosofia":, "matematica":, "fisica": , "latino":, "religione":, "votoFinale":0}]};
 //giocatori['']={"pagella":[{"data":"06/04/2020", "italiano":, "storia":, "geografica":, "scienze":, "filosofia":, "matematica":, "fisica": , "latino":, "religione":, "votoFinale":0}]};
 //giocatori['']={"pagella":[{"data":"06/04/2020", "italiano":, "storia":, "geografica":, "scienze":, "filosofia":, "matematica":, "fisica": , "latino":, "religione":, "votoFinale":0}]};
-//giocatori['']={"pagella":[{"data":"06/04/2020", "italiano":, "storia":, "geografica":, "scienze":, "filosofia":, "matematica":, "fisica": , "latino":, "religione":, "votoFinale":0}]};
 
 
 giocatori['88arf']={"pagella":[{"data":"22/03/2020", "votoFinale":0, "italiano":6.5, "storia":8, "geografica":6.5, "scienze":6.5, "filosofia":7.5, "matematica":6.5, "fisica":7 , "latino":8 , "religione":8.5}]};
@@ -55,6 +54,7 @@ giocatori['marpur']={"pagella":[{"data":"02/04/2020", "italiano":6, "storia":8, 
 giocatori['maehard']={"pagella":[{"data":"04/04/2020", "italiano":7, "storia":7.5, "geografica":6, "scienze":7, "filosofia":8, "matematica":6.5, "fisica":7 , "latino":6, "religione":8.5, "votoFinale":0}]};
 giocatori['mlamdmar']={"pagella":[{"data":"04/04/2020", "italiano":7, "storia":8, "geografica":6, "scienze":6.5, "filosofia":7.5, "matematica":6.5, "fisica":8 , "latino":8, "religione":8.5, "votoFinale":0}]};
 giocatori['napoli67']={"pagella":[{"data":"24/03/2020", "votoFinale":0, "italiano":6, "storia":7.5, "geografica":5, "scienze":5.5, "filosofia":7, "matematica":7, "fisica":8.5 , "latino":8 , "religione":8.5}]};
+giocatori['nick_940']={"pagella":[{"data":"08/04/2020", "italiano":7, "storia":8, "geografica":6, "scienze":7.5, "filosofia":8, "matematica":6, "fisica":6 , "latino":6, "religione":8.5, "votoFinale":0}]};
 giocatori['nonnogio1951']={"pagella":[{"data":"01/04/2020", "italiano":6, "storia":7.5, "geografica":5.5, "scienze":7, "filosofia":7, "matematica":5, "fisica":6.5 , "latino":6, "religione":8.5, "votoFinale":0}]};
 giocatori['paccarozzo']={"pagella":[{"data":"26/03/2020", "italiano":6.5, "storia":8, "geografica":6, "scienze":7, "filosofia":8.5, "matematica":7.5, "fisica":9 , "latino":7.5 , "religione":8.5, "votoFinale":0}]};
 giocatori['peloritano']={"pagella":[{"data":"01/04/2020", "italiano":7.5, "storia":8.5, "geografica":6.5, "scienze":7.5, "filosofia":7, "matematica":6, "fisica":7.5 , "latino":6.5, "religione":8.5, "votoFinale":0}]};
