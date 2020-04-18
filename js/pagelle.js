@@ -31,6 +31,7 @@ giocatori['enithith']={"pagella":[{"data":"28/03/2020", "italiano":7, "storia":8
 giocatori['fedegiu']={"pagella":[{"data":"31/03/2020", "italiano":6.5, "storia":8, "geografica":6, "scienze":7.5, "filosofia":7.5, "matematica":6, "fisica":7.5 , "latino":7, "religione":8.5, "votoFinale":0}]};
 giocatori['federicomalavasi']={"pagella":[{"data":"13/04/2020", "italiano":6.5, "storia":8, "geografica":6.5, "scienze":7.5, "filosofia":8.5, "matematica":7, "fisica":8.5 , "latino":8.5, "religione":8.5, "votoFinale":0}]};
 giocatori['fessura92']={"pagella":[{"data":"22/03/2020", "votoFinale":0, "italiano":7, "storia":8, "geografica":6, "scienze":7, "filosofia":7, "matematica":5, "fisica":6.5 , "latino":6.5 , "religione":8}]};
+giocatori['filippo72']={"pagella":[{"data":"15/04/2020", "italiano":7.5, "storia":8.5, "geografica":7.5, "scienze":7.5, "filosofia":8.5, "matematica":7, "fisica":8 , "latino":8.5, "religione":9, "votoFinale":0}]};
 giocatori['francio6665']={"pagella":[{"data":"03/04/2020", "italiano":7, "storia":8, "geografica":7, "scienze":8, "filosofia":7, "matematica":5, "fisica":7.5 , "latino":6.5, "religione":8.5, "votoFinale":0}]};
 giocatori['fulljoker']={"pagella":[{"data":"28/03/2020", "italiano":6, "storia":7.5, "geografica":5, "scienze":6, "filosofia":7, "matematica":5, "fisica":7 , "latino":6, "religione":8, "votoFinale":0}]};
 giocatori['garkysh']={"pagella":[{"data":"11/04/2020", "italiano":7, "storia":8, "geografica":6.5, "scienze":7.5, "filosofia":8, "matematica":6.5, "fisica":8.5 , "latino":8, "religione":8.5, "votoFinale":0}]};
@@ -70,6 +71,7 @@ giocatori['riccardocioli']={"pagella":[{"data":"30/03/2020", "italiano":9.5, "st
 giocatori['sandokann']={"pagella":[{"data":"29/03/2020", "italiano":7, "storia":8, "geografica":5.5, "scienze":8, "filosofia":7.5, "matematica":6.5, "fisica":9.5 , "latino":8.5, "religione":8.5, "votoFinale":0}]};
 giocatori['sandro2116']={"pagella":[{"data":"22/03/2020", "votoFinale":0, "italiano":7, "storia":8.5, "geografica":6.5, "scienze":7.5, "filosofia":8, "matematica":6.5, "fisica":8 , "latino":6 , "religione":8.5}]};
 giocatori['savi-xa']={"pagella":[{"data":"30/03/2020", "italiano":7, "storia":8.5, "geografica":7, "scienze":7, "filosofia":8, "matematica":6, "fisica":7 , "latino":7, "religione":8.5, "votoFinale":0}]};
+giocatori['sashadan']={"pagella":[{"data":"17/04/2020", "italiano":6.5, "storia":8, "geografica":6, "scienze":6.5, "filosofia":7, "matematica":6.5, "fisica":8 , "latino":8, "religione":8, "votoFinale":0}]};
 giocatori['saurosol']={"pagella":[{"data":"25/03/2020", "italiano":7, "storia":8, "geografica":6, "scienze":8.5, "filosofia":9, "matematica":8, "fisica":8.5 , "latino":8.5 , "religione":9, "votoFinale":0}
 //,{"data":"22/03/2020", "votoFinale":0, "italiano":7, "storia":8.5, "geografica":7, "scienze":7.5, "filosofia":8, "matematica":6.5, "fisica":8 , "latino":8 , "religione":8.5}
 ]};
